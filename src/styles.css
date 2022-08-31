@@ -1,0 +1,77 @@
+body {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  margin: 0px;
+  padding-bottom: 100px;
+  background-color: beige;
+}
+
+
+h1 {
+  font-size: 70px;
+}
+
+#title {
+  text-align: center;
+  font-family: 'Ms Madi';
+  padding-top: 10px;
+  color: green;
+}
+
+#introduction-container {
+  margin: auto;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  background-color: white;
+  margin-bottom:0px;
+  border: solid 4px;
+  border-color: #ff8080;
+}
+
+#introduction-desc{
+  align-self: center;
+  margin-right: 50px; 
+  font-size: 20px;
+}
+
+img {
+  display: block;
+}
+
+#image {
+  width: 500px;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  float:left;
+}
+
+#img-div {
+  margin:0px;
+  float:left;
+}
+
+#img-caption {
+  float:left;
+}
+
+.section-separator {
+  border-top: 3px solid green;
+  width:30%;
+  margin:60px auto;
+}
+
+h3 {
+  text-align: center;
+  color: green;
+}
+
+#tribute-info {
+  text-align: center;
+}
+.bullet-list {
+
+  list-style-position: inside;
+  margin: 0 auto 50px auto;
+}
